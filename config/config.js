@@ -1,3 +1,8 @@
+let ENV= process.env.ENVIRONMENT;
+/**
+ * Config for database conection
+ * we can load it from Environment,and make it Environment based.
+ */
 config ={};
     config.db = {
         type:"mongoDb",
