@@ -1,4 +1,13 @@
-var mongoose = require("mongoose");
+/*
+ *  Mongoose library  .
+ */
+const mongoose = require("mongoose");
+
+/*
+ * add all constant declarations 
+ * and configs here.
+ *  
+ */
 const config = require("./config");
 
 var connection = mongoose.connection;
@@ -19,6 +28,9 @@ function listen() {
   console.log(connection.readyState);
 }
 
+/*
+ * Db Connction
+ */
 function connect() {
   const connection = mongoose.connect(config.db.uri, config.db.options, err => {
     reConnect();
