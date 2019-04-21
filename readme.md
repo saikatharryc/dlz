@@ -1,5 +1,7 @@
 ## sample node server
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/saikatharryc/dlz.svg)](https://greenkeeper.io/)
+
 * Clone this repo :
     ```
     git clone git@github.com:saikatharryc/dlz.git
